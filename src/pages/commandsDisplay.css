@@ -1,0 +1,161 @@
+.tabla-lc {
+    background-color: #140B1A;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.cd-title {
+    margin-bottom: 5%;
+    border-bottom: 2px solid #A437DB;
+    
+}
+
+.cd {
+    padding-top: 0;
+    margin-top: 0;
+    height: 570px;
+}
+
+.cd-desc {
+    background-color: #291e30;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 90px;
+}
+
+.command-row .cn{
+    border-right: #A437DB solid 1px;
+}
+
+.nameC {
+    width: 100px;
+    border-right: #A437DB solid 1px;
+}
+
+.cd-theadth {
+    padding-bottom: 2%;
+    padding-top: 1%;
+    color: #A437DB;
+    padding-right: 5px;
+}
+
+.circles-cd{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    overflow: hidden;
+    z-index: -100;
+  }
+  
+  .circles-cd li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+    z-index: -50;
+    
+  }
+  
+  .circles-cd li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    display: block;
+    animation-delay: 0s;
+    z-index: 1;
+  }
+  
+  
+  .circles-cd li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    display: block;
+    animation-delay: 2s;
+    animation-duration: 12s;
+    z-index: 1;
+  }
+  
+  .circles-cd li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    display: block;
+    animation-delay: 4s;
+    z-index: 1;
+  }
+  
+  .circles-cd li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    display: block;
+    animation-delay: 0s;
+    animation-duration: 18s;
+    z-index: 1;
+  }
+  
+  .circles-cd li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    display: block;
+    animation-delay: 0s;
+    z-index: 1;
+    display: block;
+  }
+  
+  .circles-cd li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    display: block;
+    height: 110px;
+    animation-delay: 3s;
+    z-index: 1;
+  }
+  
+  .circles-cd li:nth-child(7){
+    left: 35%;
+    width: 150px;
+    display: block;
+    height: 150px;
+    animation-delay: 7s;
+    z-index: 1;
+  }
+  
+  .circles-cd li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+    display: block;
+    z-index: 1;
+  }
+  
+  .circles-cd li:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    display: block;
+    animation-duration: 35s;
+    z-index: 1;
+  }
+  
+  .circles-cd li:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+    display: block;
+    z-index: 1;
+  }

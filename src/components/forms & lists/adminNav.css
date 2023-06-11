@@ -1,0 +1,21 @@
+.crud-menu {
+    background-color: #A437DB;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-a {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-decoration: none;
+    width: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-a:hover {
+    background-color: #8129ad;
+}
